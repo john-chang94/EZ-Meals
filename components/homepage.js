@@ -50,7 +50,6 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
 
   header: {
-    // marginTop: 10,
     width: 415,
     height: 195,
     backgroundColor: "white",

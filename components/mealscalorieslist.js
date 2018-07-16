@@ -9,11 +9,6 @@ import apiKey from '../config/firebase';
 
 export default class MealsCaloriesList extends React.Component {
 
-    // this.props = {
-    // imagesTitlesIDs: this.state.imagesTitlesIDs,
-    // seeNutrients: this.seeNutrients,
-    // nutrientsList: this.state.convertedNutrients
-    // }
     state = {
         calories: []
     }
@@ -98,7 +93,7 @@ export default class MealsCaloriesList extends React.Component {
                             </View>
                         </ View>
                     }
-                    keyExtractor={(item, index) => index + ""} // index has to be string, which is why we have """
+                    keyExtractor={(item, index) => index + ""} // index has to be string, which is why we have ""
                 />
             </View>
         )

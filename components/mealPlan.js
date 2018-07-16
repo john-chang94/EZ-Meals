@@ -81,10 +81,6 @@ class MealPlan extends React.Component {
                                 return { ...info, summary: convertHTML(res[i].data.summary) }
                             });
 
-                            // for (var i = 0; i < res.length; i++) {
-                            //   newInfo[i].summary = convertHTML(res[i].data.summary)
-                            // }
-
                             this.setState({
                                 mealPlanObjects: newInfo,
 
@@ -211,9 +207,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: 120,
         height: 40,
-        // marginBottom: 30,
         borderColor: "black",
-        // marginTop: 25,
         borderRadius: 30,
         marginBottom: 20
 

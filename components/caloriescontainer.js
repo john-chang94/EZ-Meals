@@ -86,18 +86,6 @@ export default class CaloriesContainer extends React.Component {
                 }
             })
     }
-    // getMeals = () => {
-
-    //     const props = {
-    //         imagesTitlesIDs: this.state.imagesTitlesIDs,
-    //     };
-
-    //     console.log('IN CALORIES CONTAINER:', props);
-
-    //     this.props.link(MEALSCALORIESLIST, props);
-
-
-    // }
 
     render() {
         return (
@@ -153,9 +141,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: 120,
         height: 40,
-        // marginBottom: 30,
         borderColor: "black",
-        // marginTop: 25,
         borderRadius: 30,
         marginBottom: 20
     }

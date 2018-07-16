@@ -4,8 +4,6 @@ import { extractNutrients } from './helper';
 import { HOME, MEALPLAN, NUTRIENTSFROMMEALPLAN } from './constants';
 import axios from 'axios';
 import apiKey from '../config/firebase';
-// import { MainStyle } from '../styles';
-
 
 class MealPlanResults extends React.Component {
     constructor(props) {
@@ -55,6 +53,7 @@ class MealPlanResults extends React.Component {
     saveMeal(item) {
         this.props.saveMeals(item);
     }
+
     render() {
         return (
             <View style={{ flex: 1 }}>
@@ -70,7 +69,6 @@ class MealPlanResults extends React.Component {
                     data={this.props.mealPlanObjects}
                     renderItem={({ item }) =>
                         <View>
-
                             <View>
                                 <View style={{ alignItems: 'center', marginTop: 10 }}>
                                     <Text style={{ textAlign: 'center', fontSize: 30, marginBottom: 15, fontWeight: 'bold' }}>{item.title}</Text>

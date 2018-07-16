@@ -11,9 +11,6 @@ const DishResults = ({ dishNutritionArray, link }) => {
     console.log(data)
     const caloriesData = dishNutritionArray.find(obj => obj.unit == 'calories')
 
-    console.log(caloriesData)
-    // const { calories, carbs, fat, protein } = dishNutritionArray;
-
     return (
         <View style={styles.container}>
             <View style={{ justifyContent: 'space-between', flexDirection: "row" }} >

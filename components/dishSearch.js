@@ -71,7 +71,7 @@ class DishSearch extends React.Component {
                 })
                 this.setState({
                     dishNutritionArray: modifiedNutrientsArrayForPieChart
-                }, this.getDish) //ask pat why we need to do this again
+                }, this.getDish)
             })
     }
 
@@ -117,14 +117,10 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         paddingHorizontal: 5,
         textAlign: 'center',
-        // marginBottom: 15,
-        // marginTop: 5,
-        // marginLeft:80,
     },
     submitButton: {
         backgroundColor: '#fce5e5',
         borderWidth: 3,
-        // marginLeft:110,
         justifyContent: 'center',
         alignItems: 'center',
         width: 120,
@@ -143,7 +139,6 @@ const styles = StyleSheet.create({
         marginBottom: 15,
         borderColor: "black",
         borderRadius: 30,
-        // marginTop: 25,
     },
 })
 
