@@ -6,6 +6,10 @@ EZ Meals is a mobile application that is used to retrieve nutritional informatio
 - React Native
 - Axios
 
+## Collaborators
+- Daniel Roh
+- Kevin Day
+
 ## Screenshots
 <img src="https://i.imgur.com/8vUp9Vn.png" width="250">
 <img src="https://i.imgur.com/LNffosZ.jpg" width="250">
