@@ -5,6 +5,7 @@ EZ Meals is a mobile application that is used to retrieve nutritional informatio
 ## Technologies used
 - React Native
 - Axios
+- Flexbox
 
 ## Collaborators
 - Daniel Roh
